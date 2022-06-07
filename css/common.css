@@ -1,0 +1,44 @@
+/*
+
+selector {
+    property: value;
+    another-property: value;
+}
+
+*/
+
+:root
+.header-banner__button {
+    color:red 
+}
+  * {
+    margin: 0;
+    padding: 0;
+} 
+#products {
+    color:greenyellow
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    color: violet;
+}
+
+h1 {
+    border: 1px solid black;
+}
+
+h2 {
+    
+ text-transform: uppercase;
+    color: violet;
+}
+
+h2#products {
+    color: violet;
+}
+
+p::first-letter {
+    font-size: 32pc;
+}
